@@ -18,6 +18,7 @@ const playground = new BallPlayground({
 
 const physics = [LavaBallPhysics, StickyBallPhysics, SmokeBallPhysics];
 
+// Change physics here
 playground.init(50, physics[1]);
 
 function animate() {
